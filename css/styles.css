@@ -1,0 +1,30 @@
+body {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+main {
+  min-height: calc(100vh - 118px);
+}
+
+.text-justified {
+  text-align: justify;
+}
+
+#banner-text {
+  height: 30vh;
+}
+@media (min-width: 768px) {
+  .ratio-2x1 {
+    height: 65vh;
+    width: 50vw;
+  }
+  .top-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+  }
+}

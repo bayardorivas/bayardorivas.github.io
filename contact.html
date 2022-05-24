@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Bayardo Rivas</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script
+      defer
+      src="https://kit.fontawesome.com/a356d37516.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" type="./images" href="./img/favicon.png" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand bg-primary bg-gradient navbar-dark">
+        <div class="container-fluid">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="projects.html"
+                >Projects</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="contact.html"
+                >Contact me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="bio.html">My Bio</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="top-grid container pt-4">
+        <div>
+          <h3>Contact me</h3>
+          <form action="https://formspree.io/f/xzboozjl" method="post">
+            <div class="mb-3">
+              <label class="form-label" for="full-name">Full name</label>
+              <input
+                class="form-control"
+                name="full-name"
+                id="full-name"
+                type="text"
+              />
+            </div>
+            <div class="mb-3">
+              <label class="form-label" for="email">Your Email</label>
+              <input
+                class="form-control"
+                name="Email"
+                id="email"
+                type="email"
+              />
+            </div>
+            <div class="mb-3">
+              <label class="form-label" for="message">Message</label>
+              <textarea
+                class="form-control"
+                name="message"
+                id="message"
+              ></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit">Submit</button>
+          </form>
+        </div>
+
+        <div id="banner-img" class="container text-center">
+          <img
+            class="img-fluid border border-primary rounded-circle w-50 mx-auto d-block"
+            src="./img/profilePicture4.jpeg"
+            alt="Bayardo Rivas"
+          /><br />
+          <button class="btn btn-primary">Check my projects</button>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-dark text-bg-dark">
+      <div class="text-center pt-4">
+        <i class="fa-brands fa-linkedin fa-xl"></i
+        ><a
+          class="btn btn-link link-light"
+          target="_blank"
+          href="https://www.linkedin.com/in/bayardo-rivas-romero-4b94631a/"
+          >LinkedIn</a
+        >
+        <i class="fa-brands fa-github fa-xl"></i
+        ><a
+          class="btn btn-link link-light"
+          target="_blank"
+          href="https://github.com/bayardorivas"
+          >Github</a
+        >
+        <i class="fa-solid fa-envelope fa-xl"></i
+        ><a
+          class="btn btn-link link-light"
+          target="_blank"
+          href="mailto:bayardo.rivas@gmail.com"
+          >EMail</a
+        >
+      </div>
+    </footer>
+  </body>
+</html>
